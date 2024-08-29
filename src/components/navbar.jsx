@@ -24,7 +24,7 @@ function Navbar() {
         />
 
         <label htmlFor="search" className="h-10 w-10 -ml-16"></label>
-        
+
         <a href="">
           <img src=".\src\assets\cart.png" alt="Cart" className="h-8" />
         </a>
