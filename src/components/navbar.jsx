@@ -37,13 +37,13 @@ function Navbar() {
       </header>
 
       <nav className="flex justify-around pb-3 border-b-2">
-        <a href="">Rekomendasi</a>
-        <a href="">Favorit</a>
-        <a href="">Best Sellers</a>
-        <a href="">Summer Sale</a>
-        <a href="">Trending</a>
-        <a href="">Hot Deals</a>
-        <a href="">Lainnya ▶</a>
+        <a href="" className="hover:text-amber-400">Rekomendasi</a>
+        <a href="" className="hover:text-rose-300">Favorit</a>
+        <a href="" className="hover:text-yellow-300">Best Sellers</a>
+        <a href="" className="hover:text-sky-400">Summer Sale</a>
+        <a href="" className="hover:text-yellow-300">Trending</a>
+        <a href="" className="hover:text-red-600">Hot Deals</a>
+        <a href="" className="hover:text-stone-300">Lainnya ▶</a>
       </nav>
     </div>
   );
