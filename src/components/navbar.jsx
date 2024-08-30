@@ -27,7 +27,7 @@ function Navbar() {
           htmlFor="search"
         />
 
-        <label htmlFor="search" className="h-10 w-10 -ml-16"></label>
+        <label htmlFor="search" className="cursor-text h-10 w-10 -ml-16"></label>
 
         <a href="">
           <img src={cart} alt="Cart" className="h-8" />
