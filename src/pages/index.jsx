@@ -2,10 +2,12 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Product from "../components/product";
 import ImageSlider from "../components/slider";
+import slide_1 from "../assets/slide_1.png";
+import slide_2 from "../assets/slide_2.png";
 
 const images = [
-  './src/assets/slide_1.png',
-  './src/assets/slide_2.png',
+  slide_1,
+  slide_2,
 ];
 
 function Homepage() {
@@ -15,7 +17,7 @@ function Homepage() {
 
       <ImageSlider images={images} />
 
-      <div className="grid grid-cols-6 gap-4 text-left mx-16 my-6 text-sm">
+      <div className="grid grid-cols-5 gap-4 text-left mx-16 my-6 text-sm">
         <a href="" className="text-black font-normal hover:text-black">
           <Product
             img={"./src/assets/product_1.png"}
