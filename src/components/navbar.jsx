@@ -1,11 +1,15 @@
 import Button from "./button";
+import logo from '../assets/logo.png';
+import search from '../assets/header/search.png';
+import cart from '../assets/header/cart.png';
+import bell from '../assets/header/bell.png';
 
 function Navbar() {
   return (
     <div className="bg-white w-full">
       <header className="flex justify-center items-center gap-5 px-10 py-5">
         <a href="" className="flex items-center gap-1">
-          <img src=".\src\assets\logo.png" alt="Logo" className="h-8" />
+          <img src={logo} alt="Logo" className="h-8" />
         </a>
 
         <input
@@ -17,7 +21,7 @@ function Navbar() {
         />
 
         <img
-          src=".\src\assets\search.png"
+          src={search}
           alt=""
           className="h-10 -ml-16"
           htmlFor="search"
@@ -26,11 +30,11 @@ function Navbar() {
         <label htmlFor="search" className="h-10 w-10 -ml-16"></label>
 
         <a href="">
-          <img src=".\src\assets\cart.png" alt="Cart" className="h-8" />
+          <img src={cart} alt="Cart" className="h-8" />
         </a>
 
         <a href="">
-          <img src=".\src\assets\bell.png" alt="Notification" className="h-8" />
+          <img src={bell} alt="Notification" className="h-8" />
         </a>
 
         <Button text={"Daftar / Login"} />
